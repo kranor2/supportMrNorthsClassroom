@@ -72,6 +72,10 @@ h2 {
     font-size: 1em;
 }
 
+.title {
+    color: #5ce1e6;
+}
+
 #content {
     box-sizing: border-box;
     border: 0;
@@ -117,4 +121,12 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#comp-sci {
+    color: #5ce1e6;
+}
+
+#media-arts {
+    color: #a9ccfa;
 }

@@ -77,6 +77,17 @@ Classes.addEventListener("click", function() {
     BackButton.classList.add("link");
     BackButton.setAttribute("id", "back-button");
     BackButton.textContent += "Back to Home";
+    BackButton.addEventListener("click", function() {
+        Desc.innerHTML = "";
+        Paras.innerHTML = "";
+    
+        Paras.appendChild(Title);
+        Paras.appendChild(Announcement);
+        Paras.appendChild(Opening);
+        Paras.appendChild(callToAction);
+        Desc.appendChild(Paras);
+    
+    });
     Conclusion.appendChild(BackButton);
     Paras.appendChild(Conclusion);
     Desc.appendChild(Paras);
